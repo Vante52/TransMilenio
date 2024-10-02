@@ -5,7 +5,8 @@ import org.TransMilenio.estaciones.Estacion;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Ruta implements IRutas {
+public abstract class
+Ruta implements IRutas {
     protected String idRuta;                        // Identificador único de la ruta
     protected List<Estacion> estaciones;            // Lista de estaciones asignadas a la ruta
 
